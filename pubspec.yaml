@@ -1,0 +1,46 @@
+name: protofilo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Fonts
+  google_fonts: ^8.0.2
+
+  # State management
+  get: ^4.7.3
+
+  # Backend
+  supabase_flutter: ^2.12.1
+
+  # Images
+  cached_network_image: ^3.4.1
+
+  # Link
+  url_launcher: ^6.3.2
+
+  # Animations
+  flutter_animate: ^4.5.2
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+
