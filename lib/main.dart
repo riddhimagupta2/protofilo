@@ -14,7 +14,10 @@ import 'module/skill/skill.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-
+  await Supabase.initialize(
+    url: 'https://ypharoroeyxslaaoyktn.supabase.co',
+    anonKey: 'sb_publishable__YKoy46VUO4VfQW2ke0DXg_63ocNQNb',
+  );
 
   runApp(const PortfolioApp());
 }
@@ -105,9 +108,7 @@ class _BottomNav extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         color: AppColors.surface,
-        border: Border(
-          top: BorderSide(color: AppColors.border, width: 0.5),
-        ),
+        border: Border(top: BorderSide(color: AppColors.border, width: 0.5)),
       ),
       child: SafeArea(
         top: false,
